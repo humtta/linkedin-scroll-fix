@@ -8,4 +8,9 @@ small font size, which makes scrolling feel much slower than expected. This exte
 value with a standard font size, restoring normal scroll speed without affecting the page's
 appearance.
 
+## License
+
+This project is licensed under the [MIT License].
+
 [linkedin]: https://www.linkedin.com
+[mit license]: LICENSE.md
