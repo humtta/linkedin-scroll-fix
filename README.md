@@ -8,9 +8,15 @@ small font size, which makes scrolling feel much slower than expected. This exte
 value with a standard font size, restoring normal scroll speed without affecting the page's
 appearance.
 
+## Acknowledgments
+
+This extension is based entirely on [this Reddit comment] posted by [u/interoth].
+
 ## License
 
 This project is licensed under the [MIT License].
 
 [linkedin]: https://www.linkedin.com
+[this reddit comment]: https://www.reddit.com/r/linkedin/comments/1qx5wg3/comment/o4rj31i
+[u/interoth]: https://www.reddit.com/u/interoth
 [mit license]: LICENSE.md
