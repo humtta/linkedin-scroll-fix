@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "LinkedIn Scroll Fix",
+  "description": "Fixes slow scrolling on LinkedIn.",
+  "version": "0.0.0",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "@linkedin-scroll-fix.humtta",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  }
+}
