@@ -8,4 +8,4 @@ small font size, which makes scrolling feel much slower than expected. This exte
 value with a standard font size, restoring normal scroll speed without affecting the page's
 appearance.
 
-[LinkedIn]: https://www.linkedin.com
+[linkedin]: https://www.linkedin.com
