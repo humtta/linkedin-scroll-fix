@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "LinkedIn Scroll Fix",
   "description": "Fixes slow scrolling on LinkedIn.",
-  "version": "0.0.0",
+  "version": "1.0.0",
 
   "icons": {
     "16": "assets/icon.svg",
