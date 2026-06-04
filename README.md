@@ -21,7 +21,7 @@ This extension is based entirely on [this Reddit comment] posted by [u/interoth]
 This project is licensed under the [MIT License].
 
 [linkedin]: https://www.linkedin.com
-[firefox add-ons]: https://addons.mozilla.org/en-US/firefox
+[firefox add-ons]: https://addons.mozilla.org/en-US/firefox/addon/linkedin-scroll-fix
 [this reddit comment]: https://www.reddit.com/r/linkedin/comments/1qx5wg3/comment/o4rj31i
 [u/interoth]: https://www.reddit.com/u/interoth
 [mit license]: LICENSE.md
