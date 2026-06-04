@@ -3,24 +3,20 @@
   "name": "LinkedIn Scroll Fix",
   "description": "Fixes slow scrolling on LinkedIn.",
   "version": "0.0.0",
+
   "browser_specific_settings": {
     "gecko": {
       "id": "@linkedin-scroll-fix.humtta",
       "data_collection_permissions": {
-        "required": [
-          "none"
-        ]
+        "required": ["none"]
       }
     }
   },
+
   "content_scripts": [
     {
-      "matches": [
-        "*://*.linkedin.com/*"
-      ],
-      "css": [
-        "inject.css"
-      ],
+      "matches": ["*://*.linkedin.com/*"],
+      "css": ["inject.css"],
       "run_at": "document_start"
     }
   ]
