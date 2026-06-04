@@ -7,7 +7,8 @@
 
   "shell": {
     "scripts": {
-      "build": "web-ext build -s src/ -a out/ -o"
+      "build": "web-ext build -s src/ -a out/ -o",
+      "lint": "web-ext lint -s src/"
     }
   }
 }
