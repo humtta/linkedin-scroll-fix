@@ -2,7 +2,8 @@
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
 
   "packages": {
-    "web-ext": "8.10.0"
+    "web-ext": "8.10.0",
+    "go-task": "3.48.0"
   },
 
   "shell": {
