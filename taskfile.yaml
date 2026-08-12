@@ -6,4 +6,4 @@ silent: true
 
 tasks:
   build: web-ext build -s src/ -a out/ -o
-  lint: web-ext lint -s src/
+  validate: web-ext lint -s src/
