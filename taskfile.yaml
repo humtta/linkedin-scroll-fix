@@ -20,3 +20,7 @@ tasks:
   lint:
     desc: Lints Python code
     cmd: ruff check .
+
+  check:
+    desc: Formats and lints Python code
+    cmd: task format lint
