@@ -5,5 +5,10 @@ version: "3"
 silent: true
 
 tasks:
-  build: web-ext build -s src/ -a out/ -o
-  validate: web-ext lint -s src/
+  build:
+    desc: Builds the extension
+    cmd: web-ext build -s src/ -a out/ -o
+
+  validate:
+    desc: Validates the extension
+    cmd: web-ext lint -s src/
