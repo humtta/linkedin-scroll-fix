@@ -100,6 +100,44 @@
         }
       }
     },
+    "ruff@0.16.2": {
+      "last_modified": "2026-08-10T07:49:06Z",
+      "resolved": "github:NixOS/nixpkgs/d482ef84049d9b7276b83a06e4e4d76983830097#ruff",
+      "source": "devbox-search",
+      "version": "0.16.2",
+      "systems": {
+        "aarch64-darwin": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/jb4fbxpd4r942hn549y98lcx0qfhshb0-ruff-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/jb4fbxpd4r942hn549y98lcx0qfhshb0-ruff-0.16.2"
+        },
+        "aarch64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ld3df429gpzx6fmgd7bqqb1ivbpd6bwj-ruff-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ld3df429gpzx6fmgd7bqqb1ivbpd6bwj-ruff-0.16.2"
+        },
+        "x86_64-linux": {
+          "outputs": [
+            {
+              "name": "out",
+              "path": "/nix/store/ayqz62620xv7v0z80wprjb3q2prm9s0j-ruff-0.16.2",
+              "default": true
+            }
+          ],
+          "store_path": "/nix/store/ayqz62620xv7v0z80wprjb3q2prm9s0j-ruff-0.16.2"
+        }
+      }
+    },
     "web-ext@8.10.0": {
       "last_modified": "2026-05-21T08:15:18Z",
       "resolved": "github:NixOS/nixpkgs/4a29d733e8a7d5b824c3d8c958a946a9867b3eb2#web-ext",
