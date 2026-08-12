@@ -16,3 +16,7 @@ tasks:
   format:
     desc: Formats Python code
     cmd: ruff format . --line-length 80
+
+  lint:
+    desc: Lints Python code
+    cmd: ruff check .
