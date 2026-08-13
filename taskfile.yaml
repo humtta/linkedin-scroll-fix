@@ -13,6 +13,10 @@ tasks:
     desc: Validates the extension
     cmd: web-ext lint -s src/
 
+  generate:
+    desc: Generates the userscript
+    cmd: python scripts/gen_script.py
+
   format:
     desc: Formats Python code
     cmd: ruff format . --line-length 80
