@@ -10,3 +10,4 @@ MANIFEST_FILE = SRC_DIR / "manifest.json"
 CSS_FILE = SRC_DIR / "inject.css"
 
 manifest = loads(MANIFEST_FILE.read_text(encoding="utf-8"))
+css = CSS_FILE.read_text(encoding="utf-8")
