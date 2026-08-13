@@ -16,15 +16,3 @@ tasks:
   generate:
     desc: Generates the userscript
     cmd: python scripts/gen_script.py
-
-  format:
-    desc: Formats Python code
-    cmd: ruff format . --line-length 80
-
-  lint:
-    desc: Lints Python code
-    cmd: ruff check .
-
-  check:
-    desc: Formats and lints Python code
-    cmd: task format lint
