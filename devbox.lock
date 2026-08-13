@@ -53,53 +53,6 @@
         }
       }
     },
-    "python@3.15.0": {
-      "last_modified": "2026-08-05T07:53:23Z",
-      "plugin_version": "0.0.5",
-      "resolved": "github:NixOS/nixpkgs/3a971fa2e67dcb0f2f2cfed2d37e7956567d73d1#python315",
-      "source": "devbox-search",
-      "version": "3.15.0rc1",
-      "systems": {
-        "aarch64-darwin": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/vmm81f1gfam1v5is88065slffa5w9knv-python3-3.15.0rc1",
-              "default": true
-            }
-          ],
-          "store_path": "/nix/store/vmm81f1gfam1v5is88065slffa5w9knv-python3-3.15.0rc1"
-        },
-        "aarch64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/fal38qxhb3ldz0ph3nw81vn9wv5jfx5l-python3-3.15.0rc1",
-              "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/w9sfyhiyl8ixyxpknfldz4dzayajsqvy-python3-3.15.0rc1-debug"
-            }
-          ],
-          "store_path": "/nix/store/fal38qxhb3ldz0ph3nw81vn9wv5jfx5l-python3-3.15.0rc1"
-        },
-        "x86_64-linux": {
-          "outputs": [
-            {
-              "name": "out",
-              "path": "/nix/store/0la4zgh87fjsy6f8jx3wxws63nx89wv4-python3-3.15.0rc1",
-              "default": true
-            },
-            {
-              "name": "debug",
-              "path": "/nix/store/5v4y63rq5wcj494idgrpx1i25a99vb7m-python3-3.15.0rc1-debug"
-            }
-          ],
-          "store_path": "/nix/store/0la4zgh87fjsy6f8jx3wxws63nx89wv4-python3-3.15.0rc1"
-        }
-      }
-    },
     "ruff@0.16.2": {
       "last_modified": "2026-08-10T07:49:06Z",
       "resolved": "github:NixOS/nixpkgs/d482ef84049d9b7276b83a06e4e4d76983830097#ruff",
