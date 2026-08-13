@@ -5,9 +5,11 @@ from pathlib import Path
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 SRC_DIR = ROOT_DIR / "src"
+ASSETS_DIR = SRC_DIR / "assets"
 
 MANIFEST_FILE = SRC_DIR / "manifest.json"
 CSS_FILE = SRC_DIR / "inject.css"
+ICON_FILE = ASSETS_DIR / "icon.svg"
 SCRIPT_FILE = SRC_DIR / "script.user.js"
 
 manifest = loads(MANIFEST_FILE.read_text(encoding="utf-8"))
