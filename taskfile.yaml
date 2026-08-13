@@ -15,4 +15,4 @@ tasks:
 
   generate:
     desc: Generates the userscript
-    cmd: python scripts/gen_script.py
+    cmd: bash scripts/gen-script.sh
