@@ -49,6 +49,6 @@ cat <<-EOF >"${ROOT_DIR}/${SCRIPT_FILE_REL}"
 	(() => {
 	  "use strict";
 
-	  GM_addStyle("${css}")
+	  GM_addStyle("${css}");
 	})();
 EOF
