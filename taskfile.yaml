@@ -6,13 +6,10 @@ silent: true
 
 tasks:
   build:
-    desc: Builds the extension
     cmd: web-ext build -s src/ -a out/ -o
 
   validate:
-    desc: Validates the extension
     cmd: web-ext lint -s src/
 
   generate:
-    desc: Generates the userscript
     cmd: bash scripts/gen-script.sh
