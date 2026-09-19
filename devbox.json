@@ -1,6 +1,15 @@
 {
   "$schema": "https://raw.githubusercontent.com/jetify-com/devbox/0.17.2/.schema/devbox.schema.json",
 
+  "shell": {
+    "scripts": {
+      "build": "web-ext build -s src/ -a out/ -o",
+      "validate": "web-ext lint -s src/",
+
+      "generate": "bash scripts/gen-script.sh"
+    }
+  },
+
   "packages": {
     "web-ext": "8.10.0",
     "go-task": "3.48.0"
