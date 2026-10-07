@@ -16,9 +16,9 @@ Add the extension to Firefox from [Firefox Add-ons].
 Alternatively, a userscript version is available. To install it, first install a
 userscript manager such as:
 
-- [Tampermonkey] (Multi-browser)
-- [Violentmonkey] (Multi-browser)
-- [Greasemonkey] (Firefox-only)
+- [Tampermonkey] (Multi-browser).
+- [Violentmonkey] (Multi-browser).
+- [Greasemonkey] (Firefox-only).
 
 Then, open [`script.user.js`] and click the `Raw` button (or simply click
 [here]). Your userscript manager will prompt you to install the script. Confirm
